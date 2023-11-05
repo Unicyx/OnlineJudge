@@ -25,3 +25,5 @@ ret = os.system('coverage run --include="$PWD/*" manage.py test {module} --setti
 
 if not ret and is_coverage:
     os.system("coverage html && open htmlcov/index.html")
+
+##wtaudoing
